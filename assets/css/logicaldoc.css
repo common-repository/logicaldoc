@@ -1,0 +1,276 @@
+body #tablaExplorer_wrapper {
+    font: 90%/1.45em "Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+    color: #333;
+}
+
+#tablaExplorer_wrapper.dataTables_wrapper .ui-widget-header {
+    border: none;
+    background: none;
+}
+
+body #tablaSearch_wrapper {
+    font: 90%/1.45em "Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+    color: #333;
+}
+
+#tablaSearch_wrapper.dataTables_wrapper .ui-widget-header {
+    border: none;
+    background: none;
+}
+
+table.dataTable {
+    border: none;
+}
+
+table.dataTable {
+    border-collapse: separate;
+    border-spacing: 0px;
+    margin: 0px auto;
+    clear: both;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+table.dataTable, table.dataTable th, table.dataTable td {
+    box-sizing: content-box;
+    border: none;
+} 
+    
+table.dataTable {
+    border-bottom: 1px solid #111;
+} 
+
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    padding: 10px 18px;
+    border-bottom: 1px solid #111;
+}
+
+table.dataTable thead th, table.dataTable tfoot th {
+    border: none;
+    background: none;
+    font-weight: bold;
+    color: #333;
+    background-color: #FFF;
+    border-bottom: 1px solid #111;
+}
+
+table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td {
+    border-top: 1px solid #DDD;
+}
+
+table.display thead th div.DataTables_sort_wrapper {
+    position: relative;
+    padding-right: 0px;
+}
+
+#tablaExplorer_wrapper tr.odd {
+    background-color: #F9F9F9;
+}
+
+table.dataTable tbody tr {
+    background-color: #FFF;
+}
+
+tr.odd td.sorting_1 {
+    background-color: #F1F1F1;
+}
+
+tr.even td.sorting_1 {
+    background-color: #FAFAFA;
+}
+
+table.dataTable tbody tr.selected {
+    background-color: #b0bed9; 
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    color: #333;
+    float: right;
+    text-align: right;
+    padding-top: 0.25em;
+}
+
+.ui-buttonset .ui-button {
+    margin-left: 0px;
+}
+
+
+#tablaExplorer_wrapper tr.even {
+    background-color: #FFF;
+}
+
+#tablaExplorer_length label select {
+	font: 90%/1.45em "Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+	color: #4C4C4C;
+}
+
+#tablaExplorer_paginate .ui-state-default, #tablaExplorer_paginate .ui-widget-content, #tablaExplorer_paginate .ui-widget-header {
+    font-weight: normal;
+    border: none;
+    background: none;
+    color: #fff;
+    box-shadow: none;
+    min-width: 1.0em;
+    padding: 0.5em 0.5em;
+    margin-left: 2px;
+}
+
+#tablaExplorer_paginate span a.ui-state-disabled {
+    color: #333 !important;
+    border: 1px solid #979797;
+    background: linear-gradient(to bottom, #FFF 0%, #DCDCDC 100%) repeat scroll 0% 0% transparent;
+}
+
+#tablaExplorer_paginate span a.ui-state-disabled {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.0em;
+    padding: 0.5em 0.5em;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    color: #333 !important;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    opacity: 1.0;
+    border: 1px solid #979797;
+}
+
+#tablaExplorer_paginate .ui-state-default:hover {
+        color: white !important;
+        border: 1px solid #111111;
+        background-color: #585858;
+        background: linear-gradient(to bottom, #585858 0%, #111111 100%);
+}
+
+#tablaExplorer_first {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+#tablaExplorer_last {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#tablaSearch_wrapper tr.even {
+    background-color: #FFF;
+}
+
+#tablaSearch_length label select {
+	font: 90%/1.45em "Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+	color: #4C4C4C;
+}
+
+#tablaSearch_paginate .ui-state-default, #tablaSearch_paginate .ui-widget-content, #tablaSearch_paginate .ui-widget-header {
+    font-weight: normal;
+    border: none;
+    background: none;
+    color: #fff;
+    box-shadow: none;
+    min-width: 1.0em;
+    padding: 0.5em 0.5em;
+    margin-left: 2px;
+}
+
+#tablaSearch_paginate span a.ui-state-disabled {
+    color: #333 !important;
+    border: 1px solid #979797;
+    background: linear-gradient(to bottom, #FFF 0%, #DCDCDC 100%) repeat scroll 0% 0% transparent;
+}
+
+#tablaSearch_paginate span a.ui-state-disabled {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.0em;
+    padding: 0.5em 0.5em;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    color: #333 !important;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    opacity: 1.0;
+    border: 1px solid #979797;
+}
+
+#tablaSearch_paginate .ui-state-default:hover {
+        color: white !important;
+        border: 1px solid #111111;
+        background-color: #585858;
+        background: linear-gradient(to bottom, #585858 0%, #111111 100%);
+}
+
+#tablaSearch_first {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+#tablaSearch_last {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.dataTables_wrapper .dataTables_filter {
+	color: #333;
+	float: right;
+	text-align: right;
+	margin: 0px;
+	padding: 0px;	
+	width: initial;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    	margin-left: 0.5em;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	margin: 0px;
+	padding: 0px;
+	background: none repeat scroll 0% 0% #F7F7F7;
+	border: 1px solid #D1D1D1;
+	color: #686868;
+	width: initial;
+}
+
+#searchReturn {
+	padding: 0em;
+}
+
+#tablaExplorer_wrapper {
+	max-width: 75%;
+}
+
+#spanAdvancedSearch {
+	display: block;
+}
+
+#lSearch {
+	display: inline-block;
+	float: right;
+}
+
+#lSearch span {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 18px;
+}
+
+#tablaSearch_wrapper {
+	max-width: 75%;
+}
+
+
+
+
+
+
+
+
+
